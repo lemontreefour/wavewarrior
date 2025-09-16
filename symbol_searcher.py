@@ -5,8 +5,10 @@ from TradingView import SymbolSearch
 results = SymbolSearch().search("","BIST","TR")
 #for result in results[:30]:  # Show first 3 results
 print(len(results))
+i = 1
 for result in results:
-	print(f"  - {result['symbol']}: {result['description']} ({result['exchange']})")
+	print(f"{i}  - {result['symbol']}: {result['description']} ({result['exchange']})")
+	i += 1
 
 #results = sym_search.search("PATEK","BIST","TR")
 results = SymbolSearch().search("PATEK","BIST","TR")
