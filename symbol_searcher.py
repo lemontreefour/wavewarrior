@@ -1,3 +1,4 @@
+# pip install TradingView-API
 from TradingView import SymbolSearch
 
 #sym_search = SymbolSearch()
