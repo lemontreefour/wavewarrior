@@ -1,5 +1,6 @@
 from TradingView import SymbolSearch
 
+
 #sym_search = SymbolSearch()
 #results = sym_search.search("","BIST","TR")
 results = SymbolSearch().search("","BIST","TR")
